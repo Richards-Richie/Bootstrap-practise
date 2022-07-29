@@ -1,0 +1,166 @@
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#title{
+    background-color:#02bcbc;
+    color: #000;
+}
+h1 {  font-family: 'Montserrat, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.container-fluid{
+    padding:3% 15%;
+    padding-bottom: 0;
+    
+}
+body{  
+    font-family: 'Montserrat, sans-serif';
+}
+.navbar-brand{
+    font-family:ubuntu;
+    font-size: 2rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding:0 16px;
+}
+.nav-link{
+    font-size:1.5rem;
+    font-family:"Montserrat-light";
+}
+.iphone-image{
+
+    width:45%;
+    transform:rotate(15deg);    
+}
+#features{
+    padding:4.5rem 1.5rem;
+    background-color: #fff;
+    
+}
+.h3-features{
+    font-family: "Montserrat-bold";
+    font-size:1.5rem;
+    text-align:center;
+    padding:6%;
+}
+.feature1{
+    color:#8f8f8f;
+    font-size:1rem;
+}
+.icon{
+    color:#08dfdf;
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color:#66BFBF;
+}
+#testimonials{
+    padding:4.5rem 2rem;
+    background-color:#08dfdf;
+    color:#fff;
+    text-align:center;
+}
+.test-h2{
+    font-family: "Montserrat-bold";
+    line-height:1.5;
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+.test-img{
+    width:10%;
+    border-radius:100%; 
+    margin-right:20px;
+}
+#press{
+    background-color:#08dfdf;
+    padding:3%;
+    text-align:center;
+}
+.pres-img{
+    width:15%;
+    margin:20px 20px 50px;
+    
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.card{
+    width:18rem;
+}
+#pricing{
+    padding:110px;
+    text-align:center;
+}
+.pricing{
+    padding:3% 2%;
+    
+}
+@media (max-width:725px){
+
+    #title{
+        text-align:center;
+    }
+    .iphone-image{
+        position:static;
+        transform:rotate(0);
+        margin-top:20px;
+        text-align:center;
+        margin-left: 120px;
+    }
+}
+.cta{
+    height:300px;
+    text-align:center;
+    background-color:#08dfdf;
+    margin-top:3opx;
+    font-family:bold;
+    color:white;
+    
+
+}
+.ctah3{
+    margin-top:10px;
+    font-size: 3.5rem;
+}
+.ctabtn{
+    margin-top:50px;
+    padding:20px;
+}
+.footer{
+    margin:20px 520px 20px;
+    
+}
+.fa-brands{
+    padding:10px;
+}
+.copyright{
+    text-align:center ;
+    color:#8f8f8f
+}
+.button{
+    margin:0px 15px;
+}
+
+
+
+
+
+
